@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Shadows+Into+Light&display=swap');
+h1{
+    text-align: center;
+    margin:12px 0;
+}
+.container{
+    min-height: 80vh;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.container h1{
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Shadows Into Light', cursive;    
+}
+.myForm{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:40%;
+}
+.myInput{
+    font-size: 16px;
+    width:100%;
+    padding:8px;
+    margin:8px;
+    border: 2px solid rgb(157, 156, 156);
+    border-radius: 8px;
+    outline: none;
+    font-family: 'Permanent Marker', cursive;
+}
+.btn{
+    padding: 7px 8px;
+    font-size: 18px;
+    border:2px solid rgb(52, 51, 51);
+    border-radius: 12px;
+    background:rgb(107, 106, 106);
+    cursor:pointer;
+    outline:none;
+    margin:20px;
+    font-family: 'Permanent Marker', cursive;
+}

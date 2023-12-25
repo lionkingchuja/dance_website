@@ -1,0 +1,55 @@
+doctype html
+html
+  head
+    title vivek Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="static/dance-girl-logo-vector.jpg")
+                | LDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+        
+    section#introSection
+        div Welcome to lion's Dance Academy
+        div.small Eat Sleep Dance Repeat
+    sectin#MissionSection
+        h2 Our Mission 
+        div.card
+            h3 Dance Perfection 
+            div.card-box
+                div.card-img
+                    img(src="static/360_F_99690131_Taa7alynZm4oBIQu6tFXez4PcDXG87PS.jpg")
+                div.card-content
+                    p This is the best dance academy of the universe
+        div.card 
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="static/images.jpg")
+                div.card-content
+                    p This is the best dance academy of the universe
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="static/images.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+    section#sponsorsSection
+        h2 Our Sponsors
+        div#sponsors
+            img(src="static/download (1).jpg",alt="sponsor image",Class="sp_image")
+            img(src="static/download (2).jpg",alt="sponsor image",Class="sp_image")
+            img(src="static/download.jpg",alt="sponsor image",Class="sp_image")
+            img(src="static/download.png",alt="sponsor image",Class="sp_image")
+    footer#footer
+        | Copyright © 2019 vivekAcademy.com | All Rights Reserved
+    script
+      include ../static/index.js
